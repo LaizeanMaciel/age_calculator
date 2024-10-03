@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+<link rel="stylesheet" href="styles/style.css">
+<title>Age calculator App</title>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="card-calculator">
+      <div id="input-box">
+        <div class="input-content">
+          <label class="label-day" for="day-input">Dias</label>
+          <input type="number" name="day" id="day-input" placeholder="DD">
+          <small class="error-day">This field is required</small>
+        </div>
+
+        <div class="input-content">
+          <label class="label-month" for="month-input">Meses</label>
+          <input type="number" name="month" id="month-input" placeholder="MM">
+          <small class="error-month">This field is required</small>
+        </div>
+
+        <div class="input-content">
+          <label class="label-year" for="year-input">Ano</label>
+          <input type="number" name="ano" id="year-input" placeholder="YY">
+          <small class="error-year">This field is required</small>
+        </div>
+    
+        </div>
+
+        <div id="arrow-box">
+          <hr>
+          <button id="btn-calculator"><img class="purple-arrow" src="assets/images/icon-arrow.svg" alt=""></button>
+          
+        </div>
+
+        <div id="result-box">
+          <div class="result-content">
+            <p><span class="purple">--</span> anos</p>
+          </div>
+
+          <div class="result-content">
+            <p><span class="purple">--</span> meses</p>
+          </div>
+
+          <div class="result-content">
+            <p><span class="purple">--</span> dias</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <script src="javascript/script.js"></script>
+</body>
+</html>
